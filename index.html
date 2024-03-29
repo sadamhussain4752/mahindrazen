@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./assets/images/favicon.ico" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mahindra ZEN </title>
+    <meta name="title" content="Mahindra ZEN">
+
+    <link rel="preload" as="image" href="logo.svg">
+    <link rel="preload" as="image" href="assets/images/banner.jpg" media="screen and (min-width:768px)">
+    <link rel="preload" as="image" href="assets/images/mbanner.jpg" media="screen and (max-width:768px)">
+    <!-- media="screen and (min-width:768px)" -->
+    <!-- CSS only -->
+    <link rel="dns-preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+        as="style">
+
+    <!-- icons cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <div style="position:fixed ;width:100vw;z-index: 2;">
+        <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light">
+            <div class="container px-0">
+                <div class="nav-img">
+                    <img src="assets/images/logo.png" alt="Mahindra ZEN logo"
+                        title="Mahindra ZEN logo" class="logo py-1 logo-w">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100 ms-4 ms-md-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Amenities">Amenities</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Master_Plan">Master Plan</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#floor">Floor Plan</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#perfectly_positioned">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active pe-lg-0" href="#gallery">Gallery</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" href="#contact">Contact
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <div class="banner w-100 position-relative">
+
+        <picture>
+            <source media="(min-width:768px)" srcset="assets/images/slider1.jpg" style="height:100vh; object-fit:cover">
+            <source media="(max-width:768px)" srcset="assets/images/slider1.jpg">
+            <img data-src="assets/images/slider1.jpg" alt=" Mahindra Zen" class="img-responsive w-100 lazy pt-5"
+                alt="Mahindra ZEN banner" title="Mahindra ZEN banner">
+        </picture>
+
+        <!-- <img src="assets/images/banner1.jpg" alt="" class="w-100 main-banner"> -->
+        <div class="pb-4 text-center pos-abs  form-w bg-light">
+            <p class="cmco fs-5">COMING SOON</p>
+            <p class="fs-4" style="line-height:20px ;"> Mahindra ZEN</p>
+            <p class="fs-5 cmco" style="line-height:20px ;">10 Min From Bommanahalli Metro Station
+            </p>
+            <ul style="padding-left: 0px;" class="ul-sec">
+                <li>-Project Land Area:4.25 Acres</li>
+
+
+                <li>- Units: 250 Units
+
+                </li>
+
+                <li>-No. Of Towers : 2 Towers
+                </li>
+
+                <li>-Structure : G+25 Floors
+                </li>
+            </ul>
+            <p>Premium 3 BHK, 3.5 BHK & 4 BHK</p>
+            <p style="line-height:15px ; font-size: 18px;"> Price Starts from <strong>₹
+                    1.99Cr*
+                    Onwards</strong>
+            </p>
+            </p>
+            <button class="px-3 cmcob rounded-2 text-light border-0" type="button" data-bs-toggle="modal"
+                data-bs-target="#enquire_form_popup">Enquire Now</button>
+        </div>
+
+        <!--header form -->
+        <!-- </div> -->
+        <div class=" side-form">
+
+
+
+            <form id="header-form" class="text-center commonbg2">
+                <div>
+
+                </div>
+                <div class="sitvisite" type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                    Book Site A Visit
+                </div>
+                <p class="or">
+                    Or
+                </p>
+
+                <div class="getcall" type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                    <i class="fa-solid fa-phone pe-4"></i> Get a Call Back Now
+                </div>
+
+
+                <h4 class="text-center py-4" id="intouch" style="color: white;overflow-x: hidden !important;">ENQUIRE
+                    NOW</h4>
+                <div id="note1"></div>
+                <input type="text" placeholder="NAME" class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"
+                    name="name">
+                <input type="text" placeholder="PHONE NUMBER" class="my-2 p-2 border-0 border-bottom mx-3"
+                    style="width:90% ;" name="phone">
+                <input type="email" placeholder="EMAIL" class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"
+                    name="email">
+                <textarea id="" cols="23" rows="2" name="message" placeholder="MESSAGE"
+                    class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"></textarea>
+
+                <button type="submit" value="Submit" id="header-btn"
+                    class="text-white d-block mx-auto border-0 cmcob rounded-2">Submit</button>
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid px-2">
+        <!--About-->
+        <div class="row py-4 text-dark ps-2 ps-md-0" id="about">
+            <div class="col-1 d-flex align-items-center justify-content-center grey rounded">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Overview</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-start commonbg1">
+                <h2 class="cmco px-4 fs-3 "> Mahindra ZEN</h2>
+                <p class="cmco fs-5 px-4 ">At Manipal County Road, Singasandara</p>
+                <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">
+
+                    Nestled near Basapura Lake in Singasandra, this vibrant residential enclave offers excellent educational and healthcare facilities, along with convenient connectivity to all of the city's attractions. Mahindra Zen residences are designed to enhance the lives of its residents by providing a lifestyle that harmonizes with the natural surroundings. The residential units at Mahindra Zen offer a sustainable way of living with environmentally friendly flats that complement residents' lifestyles. With Net-Zero Energy Flats, we assure the perfect blend of comfort, safety, and opulence, allowing you to relax in your own personal haven.
+
+                </p>
+            </div>
+        </div>
+        <!--amenities-->
+        <div class="row py-4 commonbg1 text-dark" id="Amenities">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Amenities</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-end " style="text-align:justify ;">
+                <div class="swiper px-3 ms-2 pb-3 py-4" id="swiper_amenities">
+                    <div class="swiper-wrapper text-dark bg-light">
+                        <div class="swiper-slide py-0">
+                            <div class="card border-0 commonbg1">
+                                <div class="d-flex justify-content-center ">
+                                    <img src="assets/images/basketball.png"
+                                        alt="Mahindra ZEN amenities BasketBall Court"
+                                        title="Mahindra ZEN amenities BasketBall Court" loading="lazy"
+                                        class="ame-img rounded-top  w-25">
+                                </div>
+                                <p class="fs-ame pt-2">BASKETBALL COURT</p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="assets/images/running-man.png"
+                                        alt="Mahindra ZEN amenities Jogging Track"
+                                        title="Mahindra ZEN amenities Jogging Track" loading="lazy"
+                                        class="ame-img rounded-top w-25">
+                                </div>
+                                <p class="fs-ame pt-2">JOGGING TRACK</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card border-0 commonbg1 ">
+                                <div class="d-flex justify-content-center ">
+                                    <img src="assets/images/billiard.png"
+                                        alt="Mahindra ZEN amenities Billiards Table"
+                                        title="Mahindra ZEN amenities Billiards Table" loading="lazy"
+                                        class="ame-img rounded-top w-25">
+                                </div>
+                                <p class="fs-ame pt-2">BILLIARDS TABLE</p>
+                                <div class="d-flex justify-content-center ">
+                                    <img src="assets/images/swimming-pool.png"
+                                        alt="Mahindra ZEN amenities Swimming Pool"
+                                        title="Mahindra ZEN amenities Swimming Pool" loading="lazy"
+                                        class="ame-img rounded-top w-25">
+                                </div>
+                                <p class="fs-ame pt-2" style=" white-space: nowrap;">SWIMMING POOLS</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card border-0 commonbg1">
+                                <div class="d-flex justify-content-center ">
+                                    <img src="assets/gm.png"
+                                        alt="Mahindra ZEN amenities gym"
+                                        title="Mahindra ZEN amenities gym" loading="lazy"
+                                        class="ame-img rounded-top w-25">
+                                </div>
+                                <p class="fs-ame pt-2">GYMNASIUM</p>
+                                <div class="d-flex justify-content-center ">
+                                    <img src="assets/images/tennis.png"
+                                        alt="Mahindra ZEN amenities Tennis Court"
+                                        title="Mahindra ZEN amenities Tennis Court" loading="lazy"
+                                        class="ame-img rounded-top w-25">
+                                </div>
+                                <p class="fs-ame pt-2" style=" white-space: nowrap;">TENNIS COURT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swbtn1 pt-1"></div>
+                    <div class="swiper-pagination swbtn1 pb-3"></div>
+                </div>
+            </div>
+
+        </div>
+        <!--Price List-->
+        <div class="row py-4 ps-2 ps-md-0" id="Price_List">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Price List</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-start " style="text-align:justify ;">
+                <div class="mx-0 text-white commonbg1 px-3" style="overflow-x: auto !important;">
+                    <table class=" table w-100 disp-tab text-nowrap">
+                        <tbody></tbody>
+                        <thead class="table-dark py-3">
+                            <tr>
+                                <th>Sl. No.</th>
+                                <th>Type</th>
+                                <th>SBA</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+
+
+
+
+                        <tr>
+                            <td>1</td>
+                            <td>3 BHK</td>
+                            <td>1872 - 1925 Sq.Ft </td>
+                            <td class="d-flex justify-content-between"> <button
+                                    class="px-3 cmcob rounded-2 text-light border-0 d-block mx-auto" type="button"
+                                    data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                                    ₹ 1.99 - 2.16 Cr*
+                                </button></td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>3.5 BHK</td>
+                            <td>	2085 Sq.Ft</td>
+                            <td class="d-flex justify-content-between"> <button
+                                    class="px-3 cmcob rounded-2 text-light border-0 d-block mx-auto" type="button"
+                                    data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                                    ₹ 2.24 - 2.38 Cr*</button></td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>4 BHK</td>
+                            <td> 2363 Sq.Ft</td>
+                            <td class="d-flex justify-content-between"><button
+                                    class="px-3 cmcob rounded-2 text-light border-0 d-block mx-auto" type="button"
+                                    data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                                    ₹ 2.61 - 2.77 Cr*
+                                </button></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--Master Plan-->
+        <div class="row py-4 commonbg1" id="Master_Plan">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0 px-4 px-md-0">Master Plan</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-end msterpln" style="text-align:justify ;">
+
+                <img src="assets/images/mahindra-masterplan.jpg" alt="Mahindra ZEN master plan"
+                    title="Mahindra ZEN master plan" loading="lazy" style="filter:blur(2px) ;"
+                    class="masterpln  d-block mx-auto rounded-end px-4 m-image " type="button" data-bs-toggle="modal"
+                    data-bs-target="#enquire_form_popup">
+
+                <div class="posabs">
+                    Get Master Plan
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row py-4 commonbg1 " id="floor">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Floor Plan</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-start" style="text-align:justify ;">
+                <div class="row px-2 ms-4 d-flex justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="mx-2">
+
+                            <img src="assets/images/floorplan1.jpg" alt="Mahindra ZEN floorplan"
+                                title="Mahindra ZEN floor plan" class=" w-100  g-img  border" loading="lazy"
+                                type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                            <p class="fp-name">
+                                3 BHK
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mx-2">
+                            <img src="assets/images/floorplan2.jpg" alt="Mahindra ZEN floorplan"
+                                title="Mahindra ZEN floor plan" class=" w-100  g-img  border" loading="lazy"
+                                type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+
+                            <p class="fp-name">
+                                3.5 BHK
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mx-2">
+                            <img src="assets/images/floorplan3.jpg" alt="Mahindra ZEN floorplan"
+                                title="Mahindra ZEN floor plan" class=" w-100  g-img  border" loading="lazy"
+                                type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                            <p class="fp-name">
+                                4 BHK
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!--Perfectly Positioned-->
+        <div class="row py-4 ps-2 ps-md-0" id="perfectly_positioned">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Perfectly Positioned</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-start commonbg1" style="text-align:justify ;">
+                <div class="container-fluid">
+                    <div class="row px-4">
+                        <div class="col-12 py-2">
+
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9751.90764811034!2d77.63039109406694!3d12.871658904233444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b62f46da2b7%3A0x13737559f4080bce!2sMahindra%20Zen!5e0!3m2!1sen!2sin!4v1711525984923!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row py-4 commonbg1 " id="gallery">
+            <div class="col-1 d-flex align-items-center justify-content-center grey">
+                <div style=" transform: rotate(-90deg);">
+                    <h2 style=" white-space: nowrap;" class="pt-2 pt-md-0">Gallery</h2>
+                </div>
+            </div>
+            <div class="col-11 rounded-start" style="text-align:justify ;">
+                <div class="row px-2 ms-4">
+                    <div class="col-lg-6 col-12">
+                        <a data-lightbox="gallery" class="thumbnail" href="assets/images/g1.jpg">
+                            <img src="assets/images/g1.jpg" alt="Mahindra ZEN gallery Visitor Parking"
+                                title="Mahindra ZEN gallery Visitor Parking"
+                                class=" w-100  g-img1 px-2 border h-75" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <a data-lightbox="gallery" class="thumbnail" href="assets/images/g2.jpg">
+                            <img src="assets/images/g2.jpg" alt="Mahindra ZEN gallery Visitor Parking"
+                                title="Mahindra ZEN gallery Visitor Parking"
+                                class=" w-100  g-img1 px-2 border h-75" loading="lazy">
+                        </a>
+                    </div>
+                   
+
+
+                </div>
+                <div class="row px-2 pt-3 ms-4 d-flex justify-content-center">
+
+                    <div class="col-lg-6 col-12 ">
+                        <a data-lightbox="gallery" class="thumbnail" href="assets/images/g3.jpg">
+                            <img src="assets/images/g3.jpg" alt="Mahindra ZEN gallery Visitor Parking"
+                                title="Mahindra ZEN gallery Visitor Parking"
+                                class=" w-100  g-img1 px-2 border h-75" loading="lazy">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <a data-lightbox="gallery" class="thumbnail" href="assets/images/g4.jpg">
+                            <img src="assets/images/g4.jpg" alt="Mahindra ZEN gallery Visitor Parking"
+                                title="Mahindra ZEN gallery Visitor Parking" class=" w-100  g-img1 h-75 px-2"
+                                loading="lazy">
+                        </a>
+                    </div>
+                   
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- </div> -->
+
+
+    <div class="bg-dark text-white me-0 pe-0" style="width:100% ; z-index: 200;position: absolute;">
+        <p class="px-3 py-2" style="font-size: 14px;margin: 0 !important;text-align: justify;">
+
+            <strong>
+                <a href="privacy-policy.html">Privacy Policy</a> 
+            </strong> <br>
+
+            Disclamer:
+
+            The information provided on this website is intended exclusively for informational purposes and should not be construed as an offer of services. This site is managed by a RERA authorized real estate agent RERA :PRM/KA/RERA/1251/310/PR/210324/006712 namely Mahindra Lifespaces Agent . The pricing information presented on this website is subject to alteration without advance notification, and the assurance of property availability cannot be guaranteed. The images showcased on this website are for representational purposes only and may not accurately reflect the actual properties. We may share your data with Real Estate Regulatory Authority (RERA) registered Developers for further processing as necessary. Additionally, we may send updates and information to the mobile number or email address registered with us. All rights reserved. The content, design, and information on this website are protected by copyright and other intellectual property rights. Any unauthorized use or reproduction of the content may violate applicable laws.For accurate and up-to-date information regarding services, pricing, availability, and any other details, it is recommended to contact us directly through the provided contact information on this website. Thank you for visiting our website.
+        </p>
+    </div>
+
+
+    <!--popoupform-->
+    <!-- Modal -->
+    <div class="modal fade" id="enquire_form_popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="popupform">
+                <div class="modal-header cmcob text">
+                    <img src="assets/images/project-footerlogo.svg" alt="" class="w-25 bg-white">
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class=" pb-4" style="width:100%;">
+                        <form id="popup-form">
+
+                            <div id="note3"></div>
+
+                            <div class="text-center px-2">
+                                <input type="text" class="form-control mt-3 py-2" id="name3" name="name"
+                                    placeholder="Name">
+
+                                <input type="text" class="form-control mt-3 py-2" id="mobile3" name="phone"
+                                    placeholder="Mobile">
+
+                                <input type="email" class="form-control mt-3 py-2" id="email3" name="email"
+                                    placeholder="Email">
+                                <textarea name="message" id="message3" cols="30" rows="2" placeholder="Message"
+                                    class="form-control mt-3 py-2"></textarea>
+                                <button type="submit" value="Submit" id="popup-button"
+                                    class="btn btn-light mt-3 w-100 commonbg1"
+                                    style="background-color: #e5941f;opacity: .8;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet"
+        media="print" onload="this.media='all'">
+    <!--jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.min.js"
+        onload="swiperinit()"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+        integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--swiper style-->
+    <style media="all" type="text/css" media="none" onload="if(media!='all')media='all'">
+        .swiper {
+            width: 100%;
+            height: 100%
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            object-fit: cover
+        }
+
+        .swbtn1 {
+            top: 90% !important
+        }
+
+        .swbtn2 {
+            top: 94% !important
+        }
+
+        .sw-pr {
+            color: #fff;
+            top: 30% !important;
+            margin-left: 0 !important
+        }
+
+        .sw-nx {
+            color: #fff;
+            top: 30% !important;
+            margin-left: 100% !important
+        }
+
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: white !important;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin-top: 5% !important;
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 1.5rem !important
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 0 !important;
+            width: 2%
+        }
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            left: 0 !important;
+            width: 2%
+        }
+
+        .swiper-pagination-bullet {
+            border-radius: 0 !important;
+            width: .7rem;
+            height: .2rem;
+            background-color: black !important;
+
+        }
+    </style>
+    <script>
+        function swiperinit() {
+            if (window.innerWidth < 760) {
+                var swiper = new Swiper("#swiper_amenities", {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            } else {
+                var swiper = new Swiper("#swiper_amenities", {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    loop: false,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
+        }
+        /*form_popup*/
+        // setTimeout(function () {
+        //     $(function () {
+        //         $("#enquire_form_popup").modal('show');
+        //     });
+        // }, 3000);
+
+
+
+
+        function submitForm(formId, buttonId, noteId, redirectUrl) {
+            $(formId).submit(function (event) {
+                event.preventDefault();
+                $(buttonId).text("Please Wait");
+                $(buttonId).attr('disabled', 'disabled');
+                var str = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "contact-process.php",
+                    data: str,
+                    success: function (msg) {
+                        $(buttonId).removeAttr('disabled');
+                        $(buttonId).text("Submit");
+                        if (msg == 'OK') {
+                            result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!</p>';
+                            $(noteId).delay(20000).fadeOut();
+                            $(formId)[0].reset();
+                            if (redirectUrl) {
+                                window.location.href = redirectUrl;
+                            }
+                        } else {
+                            result = msg;
+                        }
+                        $(noteId).html(result);
+                    }
+                });
+                return false;
+            });
+        }
+
+        $(document).ready(function () {
+            submitForm("#header-form", "#header-btn", "#note1", "thankyou.html");
+            // submitForm("#footer-form", "#footer-button", "#note", "thankyou.html");
+            submitForm("#popup-form", "#popup-button", "#note3", "thankyou.html");
+        });
+
+
+
+
+
+
+
+
+
+
+
+        // $("#header-form").submit(function () {
+        //     $("#header-btn").val("Please Wait");
+        //     $('#header-btn').attr('disabled', 'disabled');
+        //     var str = $(this).serialize();
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "contact-process.php",
+        //         data: str,
+        //         success: function (msg) {
+        //             $('#header-btn').removeAttr('disabled');
+        //             $("#header-btn").val("Submit");
+        //             if (msg == 'OK') {
+        //                 result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!<\/p>';
+        //                 $('#note1').delay(20000).fadeOut();
+        //                 $('#header-form')[0].reset();
+        //                 window.location.href = "thankyou.html";
+        //             } else {
+        //                 result = msg;
+        //             }
+        //             $('#note1').html(result);
+        //         }
+        //     });
+        //     return false;
+        // });
+
+
+
+        //  $("#popup-form").submit(function () {
+        //    $("#popup-btn").text("Please Wait");
+        //     $('#popup-btn').attr('disabled', 'disabled');
+        //     var str = $(this).serialize();
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "contact-process.php",
+        //         data: str,
+        //         success: function (msg) {
+        //             $('#popup-btn').removeAttr('disabled');
+        //             $("#popup-btn").text("Submit");
+        //             if (msg == 'OK') {
+        //                 result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!<\/p>';
+        //                 $('#popup-note').delay(20000).fadeOut();
+        //                 $('#popup-form')[0].reset();
+        //                 window.location.href = "thankyou.html";
+        //             } else {
+        //                 result = msg;
+        //             }
+        //             $('#popup-note').html(result);
+        //         }
+        //     });
+        //     return false;
+        // });
+
+
+    </script>
+</body>
+
+</html>

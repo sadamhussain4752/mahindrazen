@@ -1,0 +1,413 @@
+.logo-w {
+    width: 55% !important;
+}
+
+.logo {
+    width: 45%;
+}
+
+
+
+
+.grey {
+    background: #d10f28;
+    color: white;
+    border-bottom-right-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+
+}
+
+.nav-item a:hover {
+    color: #d10f28 !important;
+}
+
+.cmco {
+    color: #d10f28;
+}
+
+.cmcob {
+    background-color: #d10f28;
+}
+
+.carousel-indicators [data-bs-target].active {
+    opacity: 1;
+    background-color: #d10f28
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fff;
+    opacity: 1
+}
+
+#header-form {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 3% 0%;
+}
+
+.row>* {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.ul-sec {
+    background-color: #d10f28;
+    color: white;
+    border: 4px solid white;
+    border-style: dotted;
+    padding: 2%;
+}
+
+.g-img {
+    height: 150px !important;
+    object-fit: cover;
+}
+
+.g-img1 {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ame-img {
+    width: 25%;
+   
+}
+
+.border {
+    border: 1.5px solid grey;
+}
+
+/*table*/
+tr {
+    padding: 10vh !important;
+}
+
+table {
+    margin-bottom: 0px !important;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: #96D4D4;
+}
+
+#header-btn {
+    width: 80px;
+    height: 30px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+#header-btn:hover {
+    width: 100px;
+    height: 50px;
+    transform: rotate(360deg);
+}
+
+#intouch {
+    font-size: 20px;
+    color: #adf7f9;
+    animation: intouch 5s ease-out infinite normal;
+}
+
+
+
+.main-banner {
+    height: 100vh;
+}
+
+.nav-img {
+    width: 25%;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.masterpln {
+    width: 100%;
+}
+
+.ftrlogo {
+    width: 15%;
+}
+
+.masterpln {
+    width: 50%;
+}
+
+@media only screen and (max-width:760px) {
+
+
+    .disp-tab {
+        display: block;
+        overflow-x: auto
+    }
+
+    .nav-img {
+        width: 75%;
+    }
+
+    .main-banner {
+        height: 50vh;
+    }
+
+    /* .m-image {
+        filter: blur(10px) !important;
+    } */
+
+    .g-img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .fs-ame {
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ame-img {
+        width: 100%;
+      
+    }
+
+    #intouch {
+        overflow-x: hidden !important;
+        font-size: 25px;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .masterpln {
+        width: 100%;
+    }
+
+    .ftrlogo {
+        width: 30%;
+    }
+
+}
+
+
+.fs-ame {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.rightbtn {
+    background-color: #eeb34b;
+    border-color: aquamarine;
+    color: #fff !important;
+    position: fixed;
+    padding: 1%;
+    right: -50px;
+    top: 65%;
+    z-index: 1;
+    transform: rotate(-90deg);
+    font-size: 15px;
+}
+
+.mobile-icons {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.ul-sec {
+    background: linear-gradient(90deg, #d10f28 0%, #ee4141 100%);
+    border-color: #d10f28;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    color: white;
+    border: 4px solid white;
+    border-style: dotted;
+    padding: 2%;
+}
+
+.fp-name {
+    text-shadow: 0px 3px 6px #d10f28;
+    font-size: 16px;
+    padding: 2% 0%;
+    text-align: center;
+    font-weight: 500;
+    background: linear-gradient(90deg, #d6354a 0%, #ee4141 100%);
+    border-color: #d10f28;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    color: white;
+    border: none;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 50%
+    }
+}
+
+
+.g-img {
+    height: 250px;
+    object-fit: cover;
+    filter: blur(1px);
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: 1.5px solid #35f462;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.px-2 {
+    padding-left: 0px !important;
+}
+
+.ps-2 {
+    padding-left: 0px !important;
+
+}
+
+
+.sitvisite {
+    background-color: white;
+    color: rgba(0, 0, 0, .7);
+    font-size: 16px;
+    padding: 2% 0%;
+    margin: 0% 4%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.msterpln{
+    position: relative;
+}
+
+.posabs{
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color:#d10f28 ;
+    color: white;
+}
+
+.or {
+    margin-bottom: 0px;
+}
+
+.getcall {
+    text-shadow: 0px 3px 6px #d10f28;
+    font-size: 16px;
+    padding: 2% 0%;
+    text-align: center;
+    font-weight: 500;
+    background: linear-gradient(90deg, #d10f28 0%, #f34f4f 100%);
+    border-color: #d10f28;
+    margin: 0% 4%;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media only screen and (min-width:760px) {
+    .side-form {
+        border-left: 1px solid black;
+    }
+
+    .grey {
+        width: 5%;
+    }
+
+    #header-form {
+        position: absolute;
+        width: 30%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        overflow-x: hidden !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form-w {
+        margin-top: 4%;
+        position: absolute;
+        width: 30%;
+        left: 2% !important;
+        top: 50%;
+        transform: translate(0%, -50%);
+        align-items: center;
+        padding: 30px;
+        border-radius: 5%;
+        padding: 0%;
+    }
+
+    #intouch {
+        overflow-x: hidden !important;
+    }
+
+
+    @keyframes intouch {
+        0% {
+            transform: scale(1.3);
+        }
+
+        25% {
+            transform: scale(2);
+        }
+
+        50% {
+            transform: scale(1.3);
+        }
+
+        100% {
+            transform: scale(1.3);
+        }
+    }
+}
